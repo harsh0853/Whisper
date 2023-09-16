@@ -15,7 +15,7 @@ const appendUserMessage = (message, position) => {
   const messageElement = document.createElement("div");
   messageElement.innerText = message;
   messageElement.classList.add("message");
-  messageElement.classList.add("user-message");
+  messageElement.classList.add("user-hello");
   messageElement.classList.add(position);
   messageContainer.appendChild(messageElement);
 };
